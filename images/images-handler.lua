@@ -17,6 +17,11 @@ function LoadImages()
 
     AllImages.MainBackground2 = love.graphics.newImage('/images/png/freepack/OptionsBackground.png');
 
+
+    --Button
+    AllImages.MediumButton = love.graphics.newImage('/images/png/buttons/normal/long.png');
+    AllImages.HoveredMediumButton = love.graphics.newImage('/images/png/buttons/hover/long.png');
+
 end
 
 function GetImages()

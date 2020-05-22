@@ -1,3 +1,5 @@
+local utf8 = require("utf8")
+
 function Image(image, x, y, w, h)
 
     local ww = w/image:getWidth();
@@ -77,3 +79,4 @@ function BetterText(String, PosX, PosY, SizeX, SizeY)
   function RGB(r, g, b)
     return {r/255, g/255, b/255}
   end  
+
